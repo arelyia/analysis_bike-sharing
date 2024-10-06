@@ -10,7 +10,7 @@ sns.set(style='dark')
 st.title('Bike Sharing Rental Analysis')
 
 # Load the dataset
-hour_df = pd.read_csv('E:\Project 1 Bangkit\hour.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/arelyia/analysis_bike-sharing/refs/heads/main/hour.csv')
 hour_df.head()
 
 def create_month_rent_df(df):
